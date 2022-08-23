@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vehicle Insurance</title>
+    <script src="src/controller/initialize.js"></script>
+    <script src="src/model/Insurance.js"></script>
+    <script src="src/view/create_insurance.js"></script>
+    <script>
+      window.addEventListener('load', init.view.createInsurance. home);
+    </script>
+  </head>
+  <style>
+    body{
+      background-color: aqua;
+    }
+  </style>
+  <center><body>
+    <h1>Vehicle Insurance</h1>
+    <hr>
+    <form id="insurance">
+        <p>
+          <label><h3>Insurance Number</h3> <input name="insurance_number" /></label>
+        </p>
+        <p>
+          <label><h3>First Name</h3> <input name="first_name" /></label>
+        </p>
+        <p>
+          <label><h3>Last Name</h3> <input name="last_name" /></label>
+        </p>
+        <p>
+          <label><h3>Vehicle Number</h3> <input name="vehicle_number" /></label>
+        </p>
+        <p><button type="button" name="commit">Submit</button></p>
+      </form>
+  </body></center>
+</html>
